@@ -1,0 +1,24 @@
+package test1;
+
+import java.util.Scanner;
+
+public class tinhthuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+System.out.println("nhap vao so \n nguyen a \n nguyen b ");
+int a = sc.nextInt();
+int b = sc.nextInt();
+int tong, hieu, tich, thuong;
+tong= a + b;
+hieu = a - b;
+tich= a * b;
+thuong = a/b;
+System.out.println("tong la"+tong);
+System.out.println("hieu la"+hieu);
+System.out.println("tich la"+tich);
+System.out.println("thuong la"+(double)+thuong);
+	}
+
+}
